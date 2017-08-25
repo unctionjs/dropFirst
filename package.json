@@ -1,5 +1,5 @@
 {
-  "name": "@unction/{{FQNAME}}",
+  "name": "@unction/dropfirst",
   "version": "1.0.0",
   "description": "",
   "keywords": [
@@ -14,9 +14,9 @@
     }
   ],
   "license": "ISC",
-  "homepage": "https://github.com/unctionjs/{{NAME}}#readme",
-  "repository": "github:unctionjs/{{NAME}}",
-  "bugs": "https://github.com/unctionjs/{{NAME}}/issues",
+  "homepage": "https://github.com/unctionjs/dropFirst#readme",
+  "repository": "github:unctionjs/dropFirst",
+  "bugs": "https://github.com/unctionjs/dropFirst/issues",
   "main": "transpiled/source.js",
   "nyc": {
     "require": [
@@ -58,6 +58,8 @@
     "tap": "10.7.2"
   },
   "dependencies": {
-    "ramda": "0.24.1"
+    "@unction/append": "2.0.0",
+    "@unction/greaterthan": "1.0.0",
+    "@unction/reducewithvaluekey": "4.0.0"
   }
 }

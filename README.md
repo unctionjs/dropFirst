@@ -1,17 +1,18 @@
-# @unction/{{NAME}}
+# @unction/dropFirst
 
 ![Tests][BADGE_TRAVIS]
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> mixed -> mixed
+> number => ArrayType => ArrayType
 
-An example function.
+Returns all but the first N of a list of ordered values.
 
 ``` javascript
-{{NAME}}(1) // 1
+dropFirst(2)([1, 2, 3]) // [3]
+dropFirst(1)([1, 2, 3]) // [2, 3]
 ```
 
-[BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/{{NAME}}.svg?maxAge=2592000&style=flat-square
+[BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/dropFirst.svg?maxAge=2592000&style=flat-square
 [BADGE_STABILITY]: https://img.shields.io/badge/stability-strong-green.svg?maxAge=2592000&style=flat-square
-[BADGE_DEPENDENCY]: https://img.shields.io/david/unctionjs/{{NAME}}.svg?maxAge=2592000&style=flat-square
+[BADGE_DEPENDENCY]: https://img.shields.io/david/unctionjs/dropFirst.svg?maxAge=2592000&style=flat-square
