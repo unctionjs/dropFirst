@@ -17,7 +17,7 @@
   "homepage": "https://github.com/unctionjs/dropFirst#readme",
   "repository": "github:unctionjs/dropFirst",
   "bugs": "https://github.com/unctionjs/dropFirst/issues",
-  "main": "transpiled/source.js",
+  "main": "transpiled/index.js",
   "nyc": {
     "require": [
       "babel-register"
@@ -62,6 +62,5 @@
     "@unction/fresh": "2.0.0",
     "@unction/greaterthan": "1.0.0",
     "@unction/reducewithvaluekey": "4.1.0"
-  },
-  "main": "transpiled/index.js"
+  }
 }
