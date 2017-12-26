@@ -1,6 +1,6 @@
 {
   "name": "@unction/dropfirst",
-  "version": "1.47.0",
+  "version": "2.0.0",
   "description": "Returns all but the first N of a list of ordered values",
   "keywords": [
     "unction",
