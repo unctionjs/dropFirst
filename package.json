@@ -61,8 +61,7 @@
     "@unction/append": "6.5.0",
     "@unction/fresh": "8.5.0",
     "@unction/greaterthan": "3.1.0",
-    "@unction/reducewithvaluekey": "11.5.0",
-    "core-js": "3.0.1"
+    "@unction/reducewithvaluekey": "11.5.0"
   },
   "files": [
     "index.js",
