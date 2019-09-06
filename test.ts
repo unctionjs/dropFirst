@@ -1,5 +1,5 @@
 /* eslint-disable no-magic-numbers */
-import dropFirst from "./index.ts";
+import dropFirst from "./index";
 
 test(() => {
   expect(dropFirst(2)(["a", "b", "c"])).toEqual(["c"]);
