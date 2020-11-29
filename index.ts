@@ -3,11 +3,10 @@ import greaterThan from "@unction/greaterthan";
 import append from "@unction/append";
 import reduceWithValueKey from "@unction/reducewithvaluekey";
 import fresh from "@unction/fresh";
-import {OrderedEnumerableType} from "./types";
 
 export default function dropFirst<A> (count: number) {
-  return function dropFirstCount (orderedList: OrderedEnumerableType<A>) {
-    return reduceWithValueKey((accumulated: OrderedEnumerableType<A>) => (value: A) => (index: number): OrderedEnumerableType<A> => {
+  return function dropFirstCount (orderedList: OrderedArray<A> | Set<A> | RecordType<unknown, A> | string) {
+    return reduceWithValueKey((accumulated: OrderedArray<A> | Set<A> | RecordType<unknown, A> | string) => (value: A) => (index: number): OrderedArray<A> | Set<A> | RecordType<unknown, A> | string => {
       if (greaterThan(index)(count - 1)) {
         return append(value)(accumulated);
       }

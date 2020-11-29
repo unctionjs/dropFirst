@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> number => OrderedEnumerableType<A> => OrderedEnumerableType<A>
+> number => OrderedArray<A> | Set<A> | RecordType<unknown, A> | string => OrderedArray<A> | Set<A> | RecordType<unknown, A> | string
 
 Returns all but the first N of a list of ordered values.
 
